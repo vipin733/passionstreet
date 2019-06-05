@@ -1,0 +1,33 @@
+/*------------------------- Event-detail -page --------------------*/
+.org_dtl{position:relative;}
+.org_dtl .side_nav{float:left; width:200px; }
+.org_dtl .tb_cntnd{width:calc(100% - 200px); float:left;}
+.org_dtl .side_nav{padding:0;}
+.org_dtl .side_nav li a{font-size:16px; line-height:30px;}
+.org_dtl .post.box1{padding:20px;}
+.post.box1 p, .post.box1 li{font-size:15px; line-height:1.4em;}
+.post.box1 ul{margin-bottom:15px;}
+.org_dtl .post h2{border-bottom:1px solid #dadada; height:15px; margin-bottom:20px;}
+.org_dtl .post h2 span{background:#fff; padding-right:15px;}
+
+.org_dtl #about ul.gnrl_info li { margin-bottom:10px; font-size:15px; color:#707070;}
+.org_dtl #about ul.gnrl_info li > div{position:relative;  padding:5px 30px;}
+.org_dtl #about ul.gnrl_info li .fa{position:absolute; left:5px; font-size:20px; top:5px; color:#ccc;}
+.org_dtl #about ul.gnrl_info li .fa-pencil{left:auto; right:5px; top:8px; opacity:0; font-size:13px;}
+.org_dtl #about ul.gnrl_info li:hover .fa-pencil{opacity:1;}
+
+
+/*-------- gallery-slider --------*/
+#gallery-slider ul{background:#fff; padding:10px 5px; box-shadow: 0 0 7px rgba(0,0,0,.1);}
+#gallery-slider ul li{float:left; padding:0 5px; position:relative;}
+#gallery-slider ul li .fa-play{position:absolute; width:40px; height:40px; line-height:37px; color:#fff; text-align:center; left:50%; top:50%; 
+background:var(--main_color); border:2px solid #fff; border-radius:2px; opacity:.8; margin:-20px 0 0 -20px}
+
+
+
+/*----- Carousel style ----*/
+.slick-dots{display:none;}
+
+
+
+

@@ -1,0 +1,36 @@
+/*--------------------------------- Bootstrap Carousel ---------------------------------------*/
+.carousel {position: relative;}
+.carousel-inner {position: relative; width: 100%; overflow: hidden;}
+.carousel-item { position: relative; display: none; width: 100%;}
+@media (-webkit-transform-3d) {
+ .carousel-item { -webkit-transition: -webkit-transform 0.6s ease-in-out; transition: -webkit-transform 0.6s ease-in-out;  -o-transition: -o-transform 0.6s ease-in-out; transition: transform 0.6s ease-in-out; transition: transform 0.6s ease-in-out, -webkit-transform 0.6s ease-in-out, -o-transform 0.6s ease-in-out; -webkit-backface-visibility: hidden; backface-visibility: hidden; -webkit-perspective: 1000px; perspective: 1000px; }
+}
+
+@supports ((-webkit-transform: translate3d(0, 0, 0)) or (transform: translate3d(0, 0, 0))) {
+.carousel-item { -webkit-transition: -webkit-transform 0.6s ease-in-out; transition: -webkit-transform 0.6s ease-in-out;  -o-transition: -o-transform 0.6s ease-in-out; transition: transform 0.6s ease-in-out; transition: transform 0.6s ease-in-out, -webkit-transform 0.6s ease-in-out, -o-transform 0.6s ease-in-out; -webkit-backface-visibility: hidden; backface-visibility: hidden; -webkit-perspective: 1000px;  perspective: 1000px;  }
+}
+.carousel-item.active,.carousel-item-next,.carousel-item-prev {display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex;}
+
+@media (min-width: 768px) {
+/* show 3 items */
+.carousel-inner .active,.carousel-inner .active + .carousel-item,.carousel-inner .active + .carousel-item + .carousel-item {display: block;}
+.carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left),.carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item,.carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item {transition: none;}
+.carousel-inner .carousel-item-next,.carousel-inner .carousel-item-prev { position: relative;  transform: translate3d(0, 0, 0);}
+.carousel-inner .active.carousel-item + .carousel-item + .carousel-item + .carousel-item {position: absolute;top: 0;right: -33.3333%;z-index: -1;display: block;visibility: visible;}
+
+/* left or forward direction */
+.active.carousel-item-left + .carousel-item-next.carousel-item-left,.carousel-item-next.carousel-item-left + .carousel-item, .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item,
+.carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item {	position: relative;	transform: translate3d(-100%, 0, 0);
+	visibility: visible;}
+
+/* farthest right hidden item must be abso position for animations */
+.carousel-inner .carousel-item-prev.carousel-item-right {position: absolute;top: 0;	left: 0;	z-index: -1;display: block;	visibility: visible;}
+
+/* right or prev direction */
+.active.carousel-item-right + .carousel-item-prev.carousel-item-right,
+.carousel-item-prev.carousel-item-right + .carousel-item,
+.carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item,
+.carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item {position: relative;	transform: translate3d(100%, 0, 0);	visibility: visible;display: block;	visibility: visible;}
+}
+
+/*-------------------------- /Bootstrap carousel ----------------------------------*/

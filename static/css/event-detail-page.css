@@ -1,0 +1,123 @@
+/*------------------------- Event-detail -page --------------------*/
+.evnt_dtl_bnr{margin:-30px 0 40px; position:relative;}
+.evnt_dtl_bnr figure{height:50vh; }
+.evnt_dtl_bnr figure img{display:block; width:100%;  height:100%; object-fit:cover;}
+.evnt_dtl_bnr .bnr_caption{background:#fff; padding:20px 0; box-shadow:0 8px 8px rgba(0,0,0,.1);}
+.evnt_dtl_bnr h1{font-weight:normal; font-size:28px; color:#333; line-height:1.1em; margin-bottom:7px;}
+.evnt_dtl_bnr h1 span.rating{display:inline-block; background:#e38384; height:26px; line-height:26px; padding:0 8px; border-radius:4px; font-size:14px; color:#fff;}
+.bnr_caption .stat{margin-bottom:10px;}
+.bnr_caption .stat span, .bnr_caption .stat a{display:inline-block; line-height:20px; margin-right:20px; font-size:16px; color:#555;}
+.evnt_dtl_bnr .bnr_caption .container{position:relative;}
+.evnt_dtl_bnr .org_logo{position:absolute; left:15px; top:-115px; background:#fff; padding:10px 15px 5px; border-radius:5px 5px 0 0; z-index:99; width:144px; height:95px;}
+.evnt_dtl_bnr .org_logo img{object-fit:contain; width:100%; height:100%;}
+.evnt_dtl_bnr .btn-primary{padding:0 40px; margin-top:20px;}
+.evnt_desc{position:relative;}
+.evnt_desc .side_nav{float:left; width:200px; }
+.evnt_desc .tb_cntnd{width:calc(100% - 200px); float:left;}
+.evnt_desc .side_nav{padding:0;}
+.evnt_desc .side_nav li a{font-size:16px; line-height:30px;}
+.evnt_desc .post.box1{padding:20px;}
+.post.box1 p, .post.box1 li{font-size:15px; line-height:1.4em;}
+.post.box1 ul{margin-bottom:15px;}
+.evnt_desc .post h2{border-bottom:1px solid #dadada; height:15px; margin-bottom:20px;}
+.evnt_desc .post h2 span{background:#fff; padding-right:15px;}
+
+/*----- Itinerary ----*/
+.itinerary ul li{list-style:none; position:relative; padding:10px 60px 10px 90px; font-size:14px; line-height:1.2em; color:#314451; margin-bottom:15px;}
+.itinerary ul li .date-stamp{position:absolute; left:0; top:0; font-size:12px; line-height:1.4em; font-weight:600; color:#314451; width:80px;}
+.itinerary ul li .date{float:left; font-size:34px; margin-right:5px; line-height:1em;}
+.itinerary ul li .more{position:absolute; right:0; top:10px; position:absolute;}
+.itinerary ul li .desc{height:18px; overflow:hidden; line-height:1em;}
+.itinerary ul li:last-child{margin-bottom:0;}
+
+/*---- Sponsors ---*/
+.evnt_desc .sponsors ul li{list-style:none; float:left; width:150px; font-size:12px; line-height:1.2em; text-align:center; margin-right:15px; color:#314451 }
+.evnt_desc .sponsors ul li figure{display:flex; align-items: center; justify-content:center; margin:8px 0 5px; border:1px solid #d5d5d5; border-radius:3px;  height:50px; text-align:center; width:100%;}
+.evnt_desc .sponsors ul li img{display:inline; max-height:100%; max-width:100%;}
+.evnt_desc .sponsors ul li span{text-transform:uppercase;}
+
+/*---- Carousel Template ----*/
+.mbr_carousel{position:relative;}
+.mbr_carousel ul{margin:0 -5px;}
+.mbr_carousel li{padding:5px; }
+.mbr_carousel .card{background: #fff;text-align: center;box-shadow: 0 0 7px rgba(0,0,0,.1);font-size: 12px;color: #8c8c8c; padding:10px;font-weight: 300;}
+.mbr_carousel .card .dp{width:50px;   height:50px;   border-radius:50%; text-align:center;  color: #fff; font-size:28px;  margin:0 auto 5px;   position:relative;}
+.mbr_carousel .card h3{font-size:14px; color:#314451; font-weight:bold; line-height:1.2em; margin-bottom:3px;}
+.mbr_carousel .card h4{line-height:1.2em; font-size:12px; color:#8c8c8c; font-weight:300; margin-bottom:18px;}
+.mbr_carousel .owl-nav{position:absolute; right:0; top:-20px;}
+.owl-prev, .owl-next{display:inline-block; width:10px; height:15px; padding-left:20px; position:static; }
+.mbr_carousel .owl-prev{background-position:-246px 0;}
+.mbr_carousel .owl-next{background-position:-275px 0;}
+.mbr_carousel .owl-prev:hover{background-position:-246px -22px;}
+.mbr_carousel .owl-next:hover{background-position:-275px -22px;}
+
+/*-------- gallery-slider --------*/
+#gallery-slider ul{background:#fff; padding:10px 5px; box-shadow: 0 0 7px rgba(0,0,0,.1);}
+#gallery-slider ul li{float:left; padding:0 5px; position:relative;}
+#gallery-slider ul li .fa-play{position:absolute; width:40px; height:40px; line-height:37px; color:#fff; text-align:center; left:50%; top:50%; 
+background:var(--main_color); border:2px solid #fff; border-radius:2px; opacity:.8; margin:-20px 0 0 -20px}
+
+
+.prcng_dtl ul li{list-style:none; border-bottom:1px solid #dadada; padding-bottom:8px; margin-bottom:8px; line-height:1.5em; font-size:14px; color:#2e434e;}
+.prcng_dtl ul li span{display:block; font-weight:300;}
+.prcng_dtl ul li:last-child{border:0; margin-bottom:0;}
+
+.org_dtl .row{margin-left:-5px; margin-right:-5px;}
+.org_dtl .col-2, .org_dtl .col-6, .org_dtl .col-4{padding:0 5px;}
+.org_dtl h4{font-size:14px; line-height:1.3em; color:#333; line-height:1.3em; margin-bottom:0;}
+.org_dtl span{display:block; font-size:13px; color:#8c8c8c; line-height:1.2em;}
+.org_dtl .btn{padding:0 10px; min-width:inherit; height:28px;}
+
+.evnt_dtl_hdr{background:#fff; padding:10px 0; box-shadow:0 0 5px rgba(0,0,0,.2); margin-top:-30px; margin-bottom:30px; position:relative;}
+.evnt_dtl_hdr img{float:left; width:63px; margin-right:10px;}
+.evnt_dtl_hdr h3{font-size:16px; color:#333; line-height:1.3em; margin-bottom:0;}
+.evnt_dtl_hdr span{display:block; font-size:13px; line-height:1.4em; color:#8c8c8c;}
+
+.wrapper{max-width:780px; margin:0 auto;}
+
+/*----- Box2 ----*/
+.box2{background:#fff; border-radius:5px; box-shadow:0 0 7px rgba(0,0,0,.1); margin-bottom:40px;}
+.box2 h2{border-bottom:1px dashed #dadada; padding:10px 20px; line-height:1.2em; font-size:24px; color:#314451; font-weight:400;}
+.box2 .panel-body{padding:20px;}
+
+/*----- Ticket listing ----*/
+table.tickets{width:100%;}
+table.tickets td{border-bottom:1px solid #dadada; padding:12px 10px; vertical-align:middle; line-height:1.2em; font-size:16px; color:#2e434e;}
+table.tickets td:first-child{padding-left:0; width:70%;}
+table.tickets td:last-child{width:114px; padding-right:0;}
+table.tickets .input-group{width:114px; border:1px solid #dadada; height:36px; border-radius:30px;}
+table.tickets .input-group button, table.tickets .input-group input{float:left;}
+table.tickets .input-group button{width:33px; height:34px; background:#dadada; padding:0; min-width:inherit; color:#000;}
+table.tickets .input-group input{width:46px; background:#fff; height:34px; border:0; text-align:center; font-size:16px; color:#2e434e; min-width:inherit;}
+table.tickets .input-group button[data-type="minus"]{border-radius:30px 0 0 30px;}
+table.tickets .input-group button[data-type="plus"]{border-radius:0 30px 30px 0;}
+table.tickets td small{display:block; font-size:12px;}
+table.tickets tr:last-child td{border-bottom:0;}
+.apply-coupon {background:#d4fded;}
+.apply-coupon h4{font-size:13px; color:#314451; font-weight:normal; line-height:1.2em; margin-bottom:4px;}
+.apply-coupon li{list-style:none; font-size:13px; color:#314451; line-height:1.3em; margin-bottom:2px;}
+.apply-coupon .form{float:right; box-shadow:0 0 5px rgba(0,0,0,.2); width:265px; border-radius:5px;}
+.apply-coupon .form button{float:right; width:90px; background:#4fcd9b; height:40px; text-align:center; font-size:13px; color:#fff; border-radius:0 5px 5px 0; border:0;}
+.apply-coupon .form input{float:left; width:calc(100% - 90px); background:#fff; padding:10px 20px; height:40px; font-size:13px; color:#8c8c8c; border-radius:5px 0 0 5px; border:0;}
+
+.box2 .panel-body.bll-info{background:#f4f4f4; padding-bottom:0;}
+.bll-info ul li{list-style:none; margin-bottom:15px; font-size:16px; color:#314451; line-height:1.3em;}
+.bll-info ul li span{float:right; text-align:right; font-weight:600;}
+.bll-info ul li.total{background:#e5e5e5; padding:15px 20px; margin:0 -20px 0; border-radius:0 0 5px 5px; font-size:20px;}
+.form-footer{margin-bottom:40px;}
+.btn-default{background:#c0c0c0;}
+
+/*------ participant Info --------*/
+.participant_info h3{text-align:center; font-size:18px; color:#314451; font-weight:300; line-height:1.3em; margin-bottom:20px;}
+.participant_info h3 span{font-size:14px; display:block; }
+
+.terms{margin-bottom:30px;}
+.terms .cstm_checkbox [type="checkbox"]:checked + label{color:#a6a6a6;}
+
+
+/*----- Carousel style ----*/
+.slick-dots{display:none;}
+
+
+
+
